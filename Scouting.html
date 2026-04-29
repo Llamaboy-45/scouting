@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,238 +13,205 @@ body {
     background: #dff6ff;
     color: black;
 }
-    }
 
-    header {
-        background: #dff6ff;
-        color: white;
-        padding: 30px;
-        text-align: center;
-    }
+header {
+    background: #264653;
+    color: white;
+    padding: 30px;
+}
 
-    nav {
-        background: #264653;
-        padding: 10px;
-        text-align: center;
-    }
+nav {
+    background: #264653;
+    padding: 10px;
+}
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin: 15px;
-        font-weight: bold;
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
 
-    nav a:hover {
-        color: #c8e6c9;
-    }
+nav a:hover {
+    color: #c8e6c9;
+}
 
-    .hero {
-        padding: 60px;
-        text-align: center;
-        background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') center/cover;
-        color: white;
-    }
+.hero {
+    padding: 60px;
+    background: #1d3557;
+    color: white;
+}
 
-    .hero h1 {
-        font-size: 50px;
-    }
+.hero h1 {
+    font-size: 40px;
+}
 
-    .content {
-        padding: 40px;
-    }
+.content {
+    padding: 40px;
+}
 
-    .card-container {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .card {
-        background: white;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        flex: 1;
-        min-width: 250px;
-    }
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    flex: 1;
+    min-width: 280px;
+}
 
-    details {
-        margin-top: 10px;
-    }
+details {
+    margin-top: 10px;
+}
 
-    summary {
-        cursor: pointer;
-        font-size: 20px;
-        font-weight: bold;
-        color: #1b5e20;
-    }
+summary {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b5e20;
+}
 
-    .split {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-        margin-top: 20px;
-    }
+.split {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
-    .side {
-        flex: 1;
-        min-width: 250px;
-        background: #f1f8e9;
-        padding: 15px;
-        border-radius: 10px;
-    }
+.side {
+    flex: 1;
+    min-width: 250px;
+    background: #f1f8e9;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-    .person {
-        margin-bottom: 20px;
-    }
+.person {
+    margin-bottom: 15px;
+}
 
-    footer {
-        background: #003049;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        margin-top: 30px;
-    }
+footer {
+    background: #003049;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>2nd Louth Blackrock Sea Scouts unofficial website</h1>
-    <p>Explore • Learn • Survive</p>
+    <h1>2nd Louth Blackrock Sea Scouts</h1>
+    <p>Unofficial Website</p>
 </header>
 
 <nav>
-    <a href="#leaders">Leaders & PLs/APLs</a>
-    <a href="#events">Events Happening Now</a>
-    <a href="#contact">Contact Us</a>
+    <a href="#leaders">Leaders & PLs</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+    <a href="#pictures-from-events">Photos</a>
 </nav>
 
 <section class="hero">
-    <h1>Hello visitors, by entrering this site you are now forced to read everything on this site</h1>
-    <p>Learn outdoor skills and teamwork.</p>
+    <h1>Welcome to Scouts</h1>
+    <p>Explore • Learn • Survive</p>
 </section>
 
 <section class="content">
 
-    <div class="card-container">
+<div class="card-container">
 
-        <div class="card" id="leaders">
+    <!-- LEADERS -->
+    <div class="card" id="leaders">
+        <h3>Leaders & PLs/APLs</h3>
 
-            <details>
-                <summary>Meet Our Leaders & PLs/APLs</summary>
+        <div class="split">
 
-                <div class="split">
+            <div class="side">
+                <h4>Leaders</h4>
 
-                    <div class="side">
-                        <h3>Leaders</h3>
-
-                        <div class="person">
-                            <h4>Fiachra</h4>
-                            <p>Is the father of Sophia</p>
-                            <p>Calls scouts a "democratic dictatorship"</p>
-                            <p>One of the better senses of humour</p>
-                        </div>
-
-                        <div class="person">
-                            <h4>Frank</h4>
-                            <p>Alias "Skipper"</p>
-                            <p>Main leader of scouts</p>
-                            <p>He likes trains</p>
-                        </div>
-
-                        <div class="person">
-                            <h4>Aela</h4>
-                            <p>Very organised</p>
-                            <p>[description]</p>
-                            <p>[description]</p>
-                        </div>
-
-                        <div class="person">
-                            <h4>Josh</h4>
-                            <p>Shares a sense of humour with me</p>
-                            <p>[description]</p>
-                            <p>[description]</p>
-                        </div>
-
-                    </div>
-
-                    <div class="side">
-                        <h3>PLs/APLs</h3>
-
-                        <div class="person">
-                            <h4>Port Watch</h4>
-                            <img src=test.jpg> 
-                            <strong>Taidgh Malone</strong>
-                            <p>Abuses his power</p>
-                            <p>Bit of a dumbass and eejit</p>
-                            <p>Great craic</p>
-
-                            <strong>Sophia Ní Chuinneagain</strong>
-                            <p>Unknown if she will arrive</p>
-                            <p>Somehow friedns with my sister</p>
-                            <p>Loves chaos</p>
-                           
-                           <strong> Ala Ciura </strong>
-                           <p> unofficial AAPL <p>
-                           <p> [description] <p>
-                           <p> [description] <p>   
-                        </div>
-                      
-
-                        <div class="person">
-                            <h4>Starboard Watch</h4>
-
-                            <strong>Alannah Fitzpatrick</strong>
-                            <p>Has an over 50% chance of not being in</p>
-                            <p>Very kind hearted</p>
-                            <p>Tries to be serious</p>
-
-                            <strong>Mateusz Ciura</strong>
-                            <p>Consistently here</p>
-                            <p>Most experienced</p>
-                            <p>Been here for 10 years (this is my site)</p>
-                        </div>
-
-                    </div>
-
+                <div class="person">
+                    <strong>Fiachra</strong>
+                    <p>Funny and organised</p>
                 </div>
 
-            </details>
+                <div class="person">
+                    <strong>Frank</strong>
+                    <p>Skipper, likes trains</p>
+                </div>
+
+                <div class="person">
+                    <strong>Aela</strong>
+                    <p>Very organised</p>
+                </div>
+
+                <div class="person">
+                    <strong>Josh</strong>
+                    <p>Good sense of humour</p>
+                </div>
+            </div>
+
+            <div class="side">
+                <h4>PLs/APLs</h4>
+
+                <div class="person">
+                    <strong>Taidgh Malone</strong>
+                    <p>Abuses his power</p>
+                    <p>Drinks a lot of tea (7+ cups a day)</p>
+                    <img src="images/test.jpg" width="200">
+                </div>
+
+                <div class="person">
+                    <strong>Sophia</strong>
+                    <p>Loves chaos</p>
+                </div>
+
+                <div class="person">
+                    <strong>Mateusz</strong>
+                    <p>Most experienced</p>
+                </div>
+
+            </div>
 
         </div>
+    </div>
 
-        <div class="card" id="events">
-            <h3>Events Happening Now</h3>
+    <!-- EVENTS -->
+    <div class="card" id="events">
+        <h3>Events</h3>
+        <p>Planning activities — check back soon :)</p>
+    </div>
 
-            <p>We are currently planning what activities we want to do please check back later :)</p>
+    <!-- CONTACT -->
+    <div class="card" id="contact">
+        <h3>Contact</h3>
+        <p>Email: scouts@example.com</p>
+        <p>Meeting: Wednesdays 19:30</p>
+    </div>
 
-            <p></p>
-        </div>
+    <!-- PHOTOS -->
+    <div class="card" id="pictures-from-events">
+        <h3>Photos from events</h3>
 
-        <div class="card" id="contact">
-            <h3>Contact Us</h3>
+        <details>
+            <summary>View photos</summary>
+            <p>More photos coming soon :)</p>
+        </details>
+    </div>
 
-            <p>Email: scouts@example.com</p>
-            <p>Phone: +353 00 000 0000</p>
-            <p>Meeting Location and Time: Every Wednesday at 19:30 in St Francis National School Blackrock A91 NH0V</p>
-        </div>
-
-<div class="card" id="pictures-from-events">
-    <h4>Photos from events</h4>
-
-    <details>
-        <summary>Some pictures from our events</summary>
-        <p>More coming soon :)</p>
-    </details>
 </div>
 
 </section>
 
 <footer>
-    <p>© 2026 2nd Louth Blackrock Sea Scouts (courtsey of Mateusz Ciura)</p>
+    <p>© 2026 2nd Louth Blackrock Sea Scouts</p>
 </footer>
 
 </body>
